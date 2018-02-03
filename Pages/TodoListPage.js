@@ -1,4 +1,5 @@
 import {current} from 'TodoApp'
+import {getQRCodePath} from './functions-dist.js'
 
 export default class TodoListPage {
     constructor(todoList = current.app.todoList) {
